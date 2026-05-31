@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Restaurante Amapola · Brasas · Cala Millor</title>
+<meta name="description" content="Restaurante Amapola en Cala Millor. Brasas, Josper, paella, carnes a la brasa. Avinguda Sa Coma 39." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#top" class="brand" aria-label="Restaurante Amapola Cala Millor">
+      <span class="brand-name">Amapola</span>
+      <span class="brand-sub">Brasas · Cala Millor</span>
+    </a>
+
+    <nav class="nav-main" aria-label="Main navigation">
+      <a href="#empfehlungen" data-i18n="nav.menu">Recomendaciones</a>
+      <a href="#eindruecke" data-i18n="nav.gallery">Imágenes</a>
+      <a href="#historia" data-i18n="nav.story">Sobre nosotros</a>
+      <a href="#visitanos" data-i18n="nav.visit">Visita</a>
+    </nav>
+
+    <div class="header-right">
+      <div class="lang-switch" role="group" aria-label="Idioma">
+        <button data-lang="es" class="lang-btn is-active">ES</button>
+        <button data-lang="en" class="lang-btn">EN</button>
+        <button data-lang="de" class="lang-btn">DE</button>
+      </div>
+      <a href="tel:+34971813387" class="btn btn-primary btn-reserve" data-i18n="cta.reserve">Reservar</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <p class="eyebrow" data-i18n="hero.eyebrow">Cala Millor · Mallorca</p>
+    <h1 class="hero-title" data-i18n="hero.title">Carnes a la brasa.<br/>Josper. Paella.</h1>
+    <p class="hero-sub" data-i18n="hero.sub">Parrilla mediterránea en Cala Millor — cortes premium al Josper, paella en su punto, vino con carácter. El jefe cuida cada plato.</p>
+    <div class="hero-cta">
+      <a href="tel:+34971813387" class="btn btn-primary" data-i18n="hero.reserve">Reservar mesa</a>
+      <a href="tel:+34971813387" class="btn btn-ghost" data-i18n="hero.call">Llamar</a>
+    </div>
+    <div class="hero-meta">
+      <span data-i18n="hero.hours">Abierto de Pascua a octubre  ·  Reserva recomendada</span>
+      <span class="dot">·</span>
+      <span class="rating" data-i18n="hero.rating">★ 4,8 · 2.233 reseñas</span>
+    </div>
+  </div>
+</section>
+
+<section class="story" id="historia">
+  <div class="container story-grid">
+    <div class="story-text">
+      <p class="kicker" data-i18n="story.kicker">Sobre nosotros</p>
+      <h2 data-i18n="story.title">El fuego, la carne, el momento.</h2>
+      <p data-i18n="story.p1">Amapola es una parrilla de las de verdad — Josper a carbón, cortes elegidos a mano y un jefe que pasa por cada mesa para asegurar que la carne sale en su punto justo.</p>
+      <p data-i18n="story.p2">Carta pensada para compartir: chuletón, brochetas, lubina a la brasa, paella generosa. Vinos seleccionados y postres caseros. Local en la Avinguda Sa Coma, a un paso del paseo.</p>
+    </div>
+    <ul class="story-stats">
+      <li><strong>4,8 ★</strong><span data-i18n="story.statRating">2.233 reseñas</span></li>
+      <li><strong>Josper</strong><span data-i18n="story.statGrill">parrilla a carbón</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="gallery" id="eindruecke">
+  <div class="container">
+    <header class="section-head">
+      <p class="kicker" data-i18n="gallery.kicker">Imágenes</p>
+      <h2 data-i18n="gallery.title">Así es Amapola.</h2>
+    </header>
+    <div class="gallery-grid">
+      <figure class="gallery-item gallery-item--big">
+        <img src="https://images.unsplash.com/photo-1558030006-450675393462?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Carne a la brasa" loading="lazy">
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Chuletón al Josper" loading="lazy">
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1534080564583-6be75777b70a?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Paella" loading="lazy">
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Local" loading="lazy">
+      </figure>
+    </div>
+    <p class="menu-note" data-i18n="gallery.note">Imágenes de muestra — las cambiamos por fotos reales de vuestros platos y del local a petición.</p>
+  </div>
+</section>
+
+<section class="menu" id="empfehlungen">
+  <div class="container">
+    <header class="section-head">
+      <p class="kicker" data-i18n="menu.kicker">Recomendaciones</p>
+      <h2 data-i18n="menu.title">Lo que más gusta a nuestros clientes.</h2>
+    </header>
+
+    <div class="rec-grid" id="recGrid"></div>
+
+    <p class="menu-note" data-i18n="menu.note">La carta completa y el vino del día están en el local.</p>
+  </div>
+</section>
+
+<section class="visit" id="visitanos">
+  <div class="container visit-grid">
+    <div class="visit-info">
+      <p class="kicker" data-i18n="visit.kicker">Visita</p>
+      <h2 data-i18n="visit.title">Avinguda Sa Coma, 39 — Cala Millor</h2>
+
+      <div class="info-block">
+        <p class="info-label" data-i18n="visit.hoursLabel">Temporada</p>
+        <p data-i18n="visit.hoursMain">De Pascua a octubre</p>
+        <p class="muted" data-i18n="visit.hoursNote">Horario actualizado en Google Maps. Reserva recomendada.</p>
+      </div>
+
+      <div class="info-block">
+        <p class="info-label" data-i18n="visit.addressLabel">Dirección</p>
+        <p>Avinguda Sa Coma, 39<br/>07560 Cala Millor · Mallorca</p>
+      </div>
+
+      <div class="info-block">
+        <p class="info-label" data-i18n="visit.contactLabel">Contacto</p>
+        <p><a href="tel:+34971813387">+34 971 81 33 87</a></p>
+      </div>
+
+      <div class="visit-cta">
+        <a href="tel:+34971813387" class="btn btn-primary" data-i18n="visit.callCta">Llamar para reservar</a>
+      </div>
+    </div>
+
+    <div class="visit-map">
+      <iframe
+        src="https://www.google.com/maps?q=Restaurante+Amapola,+Avinguda+Sa+Coma+39,+Cala+Millor&z=16&output=embed"
+        title="Restaurante Amapola — Avinguda Sa Coma 39"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <p class="footer-name">Amapola</p>
+      <p class="footer-tag" data-i18n="footer.tag">Brasas · Josper · Cala Millor</p>
+    </div>
+    <div class="footer-cols">
+      <div>
+        <p class="footer-label" data-i18n="footer.findUs">Dónde estamos</p>
+        <p>Avinguda Sa Coma, 39<br/>07560 Cala Millor</p>
+      </div>
+      <div>
+        <p class="footer-label" data-i18n="footer.hours">Temporada</p>
+        <p data-i18n="footer.hoursLine">De Pascua a octubre</p>
+      </div>
+      <div>
+        <p class="footer-label" data-i18n="footer.contact">Contacto</p>
+        <p><a href="tel:+34971813387">+34 971 81 33 87</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> Restaurante Amapola · Cala Millor</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
